@@ -18,11 +18,12 @@ show_minimal: false             # remove all clutter
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {file: "archive.html", title: "Home", sidebaricon: home}
-  - {file: "README.md", title: "About me", sidebaricon: address-card}
+  - {file: "archive.html", title: "Home", sidebaricon: home} # intro to website
+  - {file: "README.md", title: "About me", sidebaricon: address-card} # quick bio, resume, etc.
+  - {file: "braindumps.md", title: "Research", sidebaricon: brain} # paper + exploration blog post 
+
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
-  - {title: Mail, icon: envelope, url: "mailto:shrestha135kriteen@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/kriteenshrestha"}
   - {title: LinkedIn, icon: rss, url: "https://www.linkedin.com/in/kriteen-shrestha/"}
 
